@@ -2,29 +2,25 @@
 <html lang="en">
 <head>
     <style>
-        .container{
-        background-color: #eee;
-        height: 400px;
-        position: relative;
+        button[title]{
+            color: red;
         }
-        .child{
-            width: 100px;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%); 
-            background-color: red;
-        }
-
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="" media="">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="child">div 1</div>
+    <div class="parent">
+        <button title="">button</button>
+        <div class="child">
+            div 1
+        </div>
+        <p title="">paragraph</p>
+        <button>button</button>
+        <div class="child">
+            div 2
+        </div>
     </div>
 </body>
 </html>
